@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color4"
+        android:padding="5dp"
+        android:text="차량 충격 부위"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/car_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="5dp"
+        app:srcCompat="@drawable/car_all" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color4"
+        android:padding="5dp"
+        android:text="사고 상황 분석"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textOut1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color5"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:text="사고 상황 분석"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textOut2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color5"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:text="사고 상황 분석"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textOut3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color5"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:text="사고 상황 분석"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
